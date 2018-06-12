@@ -1,0 +1,28 @@
+.emp-card {
+  border: 1px solid #BEBEBE;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+img {
+  border-radius: 50%;
+}
+
+ p {
+  color: #BEBEBE;
+}
+
+.upper {
+  text-transform: capitalize;
+}
+
+.emp-modal {
+  text-align: center;
+}
+
+.emp-modal h4 {
+  margin-top: 10px;
+}
