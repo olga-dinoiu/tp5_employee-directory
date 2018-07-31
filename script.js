@@ -26,7 +26,7 @@ function getEmployeesHTML(employee, id) {
                    <hr>
                    <p>${employee.phone}</p>
                    <p class="upper">${employee.location.street}, ${employee.location.state} ${employee.location.postcode}</p>
-                   <p> Birthday: ${employee.dob.slice(0, 10)}</p>
+                   <p> Birthday: ${employee.dob.date.slice(0, 10)}</p>
                 </div>
              </div>
           </div>
